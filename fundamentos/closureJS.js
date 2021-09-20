@@ -38,3 +38,22 @@ innerFunc(); // 100
  * So now, when you call innerFunc(), it can still access the var outerVariable which is declared in
  * OuterFunction(). This is called Closure.
  */
+
+/**
+ * Closure e o escopo criado quando uma funcao e declarada.
+ * 
+ * Este escopo permite a funcao acessar e manipular variaveis externas a funcao.
+ */
+const x = "global"
+
+function fora(){
+  const x = "local"
+  function dentro(){
+    return x
+  }
+  return dentro
+}
+
+console.log(fora())
+const myFunction = fora()
+console.log(myFunction())

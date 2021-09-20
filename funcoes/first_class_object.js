@@ -1,7 +1,6 @@
 /**
  * Funcao JS e um objeto first-class (citizens)
  * (Cidadao de Primeira Classe)
- * 
  */
 
 function func1(){} //forma literal
