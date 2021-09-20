@@ -1,0 +1,32 @@
+* module.exports === this
+	- Porem pertencem a uma camada menos abrangente que a pala-
+reservada "global".
+
+* variaveis definidas sem declaracao
+	- Ent por exemplo, se vc tiver variaveis globais declaradas
+sem let, var ou const e usar um  global.variavel, vc tera acesso
+a variavel em questao.
+
+* duvida: .reduce((a, b) => a + b, 0) (???)
+
+* funcoes podem retornar funcoes
+	- Se um funcao tem parametros (a,b) e a mesma retorna uma
+funcao de parametro (c) mas que usa a,b,c, e so fazermos:
+	funcao1(a,b)(c)
+
+* parametros variaveis
+	- toda funcao tem o parametro "arguments", se n for passado
+nenhum argumento para a funcao, arguments e um array vazio. Este
+parametro pode variar:
+	function soma(){
+	  let soma = 0
+	  for(i in arguments){
+	    soma += arguments[i]
+	  }
+	  return soma
+	}
+
+* parametros padrao
+	- ||, ?, isNaN(), !==undefined, in
+
+* this e variavel

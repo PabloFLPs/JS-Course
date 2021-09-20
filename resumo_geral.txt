@@ -1,0 +1,41 @@
+* Algoritmo:
+	- Serie de instrucoes
+* Estruturas de Dados:
+	- Lista
+	- Heap
+	- Pilha
+* Organizacao de Codigo JS:
+	- Baseada em sentencas
+* Comentarios:
+	- //
+	- /**/
+	- /***/
+
+* Var, Let, Const:
+	- Var: possui escopo global e pode ser atualizada e redeclarada; (o escopo dentro de uma funcao e somente a funcao).
+	- Let: possui escopo local e pode ser atualizada.
+	- Const: escopo local (exceto var const) e nao pode ser atualizada.
+	- Usar "const" e "let" preferencialmente.
+
+* Tipagem Fraca:
+	- O JS possui tipagem dinamica, atribui o tipo das variaveis automaticamente de acordo com o tipo dos dados.
+
+* Tipos JS: Number
+	- Inteiros e pontos flutuantes. Declarando 
+
+* Number: Cuidados
+	- Tipo infinity.
+	- JS reconhece numeros em strings:
+		console.log('10.2'/2) //Daria erro porem nao mais, JS esta mais top
+		10.1
+	- console.log('Show' * 2) //NaN -> Not a Number
+	  NaN
+	- console.log((10).toString())
+	  10
+	- console.log('3' + 2) //Neste caso, a string vence a prioridade com o '+'
+	  32
+	- console.log('3' - 2) //Considera uma operacao de numeros msm
+	  1
+* Usando a Math:
+* Tipos JS: String
+* String: Usando Templates
