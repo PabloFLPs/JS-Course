@@ -16,7 +16,7 @@ console.log(game)
  * Agora, para de fato "congelar" um objeto e impedir
  * alteracoes, e so usar o .freeze():
  */
-
 Object.freeze(game)
 game.nome = "NieR Automata"
+//Nao da erro, mas n permite a alteracao.
 console.log(game)

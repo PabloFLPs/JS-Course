@@ -12,13 +12,16 @@ console.log(Object.keys(personagem))
 //Object.values() -> retorna os valores das chaves
 console.log(Object.values(personagem))
 
-//Object.entrie() -> retorna um vetor com todos as "entradas
+//Object.entries() -> retorna um vetor com todos as "entradas
 console.log(Object.entries(personagem))
-
+/*
 Object.entries(personagem).forEach(e => {
   console.log(`${e[0]}: ${e[1]}`)
 })
-
+*/
+Object.entries(personagem).forEach(([chave, valor]) => {
+  console.log(`${chave}: ${valor}`)
+})
 
 //Object.defineProperty() -> define propriedade k k k
 Object.defineProperty(personagem, "realName", {
