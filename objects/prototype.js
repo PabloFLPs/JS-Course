@@ -10,3 +10,4 @@ console.log(filho)
  * mas, se fizermos: 
  */
 console.log(filho.atributo0, filho.atributo1, filho.atributo2, filho.atributo3)
+//Entao vemos que "filho" possui os atributos herdados.
