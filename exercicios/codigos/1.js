@@ -8,5 +8,5 @@
  * cumprimentar("Maria") // retornará "Olá, Maria!"
  */
 
-const cumprimenta = (nome) => {console.log('Olá ' + nome + '!')}
+const cumprimenta = (nome) => {console.log('Olá, ' + nome + '!')}
 cumprimenta('Pablo')
